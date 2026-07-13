@@ -8,3 +8,7 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
+
+# Health Connect
+-keep class androidx.health.connect.client.** { *; }
+-keep class androidx.health.platform.client.** { *; }
